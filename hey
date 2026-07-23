@@ -1,4 +1,73 @@
-a=24
-b=12
-print (a+b)
-g=10
+# n=5
+# for i in range (1, n+1):
+#     print ("*"*
+
+
+# i=0
+# while i<=10:
+#     print (i)
+#     i+=1
+
+# a="naveen"
+# b=len(a)
+# print (b)
+# for i in a:
+    # print (i,end=" 
+
+
+# i=0
+# while i<b:
+#     print (a[i])
+#     i+=1
+
+
+# i=10
+# while i >0:
+#     print (i)
+#     i-=1
+
+
+# a=0
+# n= int (input("enter your number : "))
+# while a<=n:
+#     if a%2==0:
+#         print(a)
+#     a+=1
+
+
+# a=0
+# n= int (input("enter your number : "))
+# while a<=n:
+#     print(a)
+#     a+=2 
+ 
+# choice =""
+# while choice !="quit":
+#     choice =input ("enter type to quit to exit")
+# print ("good bye")
+
+
+# choice =""
+# total=0
+# while choice !=0:
+#     choice =int (input ("enter your number : "))
+#     total=total+choice
+# print(total)
+
+
+# raw=1
+# while raw <=4:
+#     cal =1
+#     while cal<=3:
+#         print(f"({raw},{cal})",end=" ")
+#         cal+=1
+#     print()
+#     raw+=1
+
+while True :
+    a=int (input ("enter your first number "))
+    b=int (input("enter your second number"))
+    c=a+b
+    print (c)
+    if a==0:
+        break
