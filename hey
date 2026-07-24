@@ -64,10 +64,107 @@
 #     print()
 #     raw+=1
 
-while True :
-    a=int (input ("enter your first number "))
-    b=int (input("enter your second number"))
-    c=a+b
-    print (c)
-    if a==0:
-        break
+# while True :
+#     a=int (input ("enter your first number "))
+#     b=int (input("enter your second number"))
+#     c=a+b
+#     print (c)
+#     if a==0:
+#         break
+
+
+
+# while True :
+#     a=int (input("enter your first number "))
+#     b=int (input ("enter your second number"))
+
+
+
+
+# while True :
+#     a= int (input("enter your first number "))
+#     b=int (input ("enter your second number "))
+#     op =input ("choose your operator (+,-,*,/ or 5 to exit)")
+#     if op== "+":
+#         print(f"{a}+{b}={a+b}")
+#     elif op=="-":
+#         print (f "{a}-{b}= {a-b}")
+#     elif op=="*":
+#         print (a*b)
+#     elif op=="/":
+#          print (a/b)
+
+#     elif a== 5:
+#         break
+    
+
+# a=10
+# b=20
+# c=30
+# print("a=",a," b=",b," c=",c)
+# print ("a={} b={} c={}".format(c,b,a))
+# print (f"a={a} b={b} c={c} ")
+
+
+
+
+# function  
+
+
+# def greet() :
+#     print("naveen")
+
+
+
+# greet()
+# greet ()
+
+
+
+# def greet() :
+#     return "naveeen"
+
+
+
+
+# print (greet ())
+# a=greet()
+# print (a)
+
+
+# def add(a):
+#     b=10
+#     return a+b
+
+# result=add(5)
+# print (result)
+
+
+# def add (a,b):
+#     return a+b
+
+# a= int (input("enter a number:"))
+# b= int (input("enter another number:"))
+# result =add(a,b)
+# print (r
+
+
+def add (a,b):
+    return a+b
+
+a=int(input("enter a number:"))
+b=int (input("enter another number"))
+result=add(a,b)
+print(result)
+
+
+
+def add(a,b):
+    return a+b
+
+a=int(input("ent"))
+b=in(input("ent"))
+result = add(a,b)
+print(result)
+ 
+
