@@ -60,16 +60,38 @@ original_list=[1,2,[3,4]]
 # c=a/b
 # print(c)
 
-try:
-    a=3
-    b=0
-    c=a/b
-    print(c)
-except Exception as e:
-    print(e)
-finally:
-    print("this will always excute")
-    
+# try:
+#     a=3
+#     b=0
+#     c=a/b
+#     print(c)
+# except Exception as e:
+#     print(e)
+# finally:
+#     print("this will always excute")
 
 
-            
+
+class Car:
+    def __init__(self,brand,model,year):
+        self.brand=brand
+        self.model=model
+        self.year=year
+    def display_details(self):
+        print(f"car barnd ={self.brand},car model ={self.model},car year ={self.year}")
+
+# car1=Car("bmw","m4",2000)
+# car2=Car("swift","dezire",2001)
+# car1.display_details ()
+# car2.display_details()
+
+
+class Student:
+    def __init__(self):
+        print("first_constructor")
+    def __init__(self):
+        print("second_constructor")
+    def display(self,name):
+        print(name)
+s1=Student()
+s1.display("nova")
